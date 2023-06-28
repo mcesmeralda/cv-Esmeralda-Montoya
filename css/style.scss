@@ -1,0 +1,125 @@
+$color1: #E6E6E6;
+$color2: #C4C4C4;
+$color3: #005677;
+$color4: #FFFFFF;
+
+body{
+    width: 1440px;
+    left: 0px;
+    position: absolute;
+    margin: 0;
+    padding: 0; 
+    }
+
+header{
+    background-color: $color1;
+    display: flex;
+    justify-content: center;
+    
+ img {
+        padding: 1rem 0 1rem 0;
+        align-items: center;
+        justify-content: center;}
+
+}
+
+.datos{
+    margin-top: 150px;
+    
+}
+
+
+h2{
+    background-color: $color2;
+    text-transform: uppercase;
+    font-family: 'Times New Roman' ;
+    line-height: 38px;
+    position: relative;
+    font-size: 20px;
+    color: $color3;
+    letter-spacing: 7px;
+    font-style: normal; 
+    display: grid;
+    
+   
+}
+
+.form{
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    line-height: 19.7px;
+    font-weight: lighter;
+
+
+    dt span  {
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    font-weight: bold;
+    font-style: normal;
+    position: relative;top: 0px; left: 25px; 
+
+}
+}
+
+h1{
+    text-align: center;
+    background-color: $color2;
+    color:  $color3;
+    text-transform: uppercase;
+    font-family: 'Times New Roman' ;
+    word-spacing: 24px;    
+    font-size: 25px;
+    word-spacing: 28px;
+    letter-spacing: 20px;
+    line-height: 60px;
+    font-style: normal;
+    margin-top: 0%;
+    
+}
+
+.informacion ul li{
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    font-style: normal;
+
+     span{
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    font-weight: bold;
+    font-style: italic;
+    
+     }
+
+   
+}
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 20px;
+    left: 0px;
+    top: 987px;
+    
+    
+    p{
+        text-align: center;
+        line-height: 50px;
+        font-family: "Times New Roman";
+        font-style: normal;
+        color: $color4;
+        font-size: 20px;
+        background-color: $color3;
+    
+    }
+    
+    img {
+        position: relative;
+        bottom: -3px;
+      }
+    }
+
+
